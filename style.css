@@ -1,0 +1,98 @@
+body {
+  font-family: arial;
+  display: grid;
+  place-items: center;
+  margin: 0px;
+  gap: 40px;
+  padding: 80px;
+  background: #f0eeed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+span {
+  background: red;
+}
+
+a p h1 h2 h3 {
+  margin: 0px;
+}
+
+h2 {
+  font-size: 60px;
+  color: #4f4f4f;
+  text-align: start;
+}
+p {
+  font-size: 18px;
+}
+
+.menu {
+  background: #c0c0c0;
+  width: 700px;
+  height: 30px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.corpotodo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 900px;
+}
+
+.botaovermelho {
+  background: #a52a2a;
+  place-self: start end;
+  border-radius: 5px;
+}
+.botao {
+  background: #a52a2a;
+  color: #c0c0c0;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.bicicleta {
+  border-radius: 20px;
+  max-width: 100%;
+  display: block;
+}
+
+.introducao {
+  display: grid;
+  align-content: center;
+  justify-items: end;
+  text-align: center;
+}
+
+.vantagens {
+  padding: 10px;
+}
+
+.vantagesquadro {
+  text-align: start;
+  place-items: start;
+  grid-template-columns: auto 1fr;
+  display: grid;
+}
+
+.vantagesquadro p {
+  grid-column: 2;
+  margin: 5px;
+}
+
+.vantagesquadro img {
+  
+  padding: 15px;
+}
+]
